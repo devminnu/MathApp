@@ -57,5 +57,7 @@ func multiply(n1, n2 int) int {
 	return n1 * n2
 }
 
+// https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker
+// docker build -t ma-image .
 // /Users/minhajuddinquazi/CodeSpace/Flutter/MathApp/main.go
 // docker run -it --rm --name ma-instance -p 8080:8080 -v /Users/minhajuddinquazi/CodeSpace/Flutter/MathApp:/go/src/MathApp -w /go/src/MathApp ma-image
